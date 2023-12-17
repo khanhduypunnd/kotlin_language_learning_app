@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bg1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title"
+            android:layout_marginTop="56dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:text="Edit profile"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            style="@style/h4" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/iv_profile"
+            android:layout_gravity="center"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:src="@drawable/ic_avatar" />
+
+
+        <TableRow
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_marginStart="8dp"
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:text="Username : "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/ed_user_name"
+                android:layout_marginStart="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:hint="Username"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_marginStart="8dp"
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:text="Address : "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/ed_address"
+                android:layout_marginStart="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:hint="Address"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_marginStart="8dp"
+                android:id="@+id/tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:text="Phone : "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/ed_phone"
+                android:layout_marginStart="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:hint="Phone"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+             >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_confirm_edit_profile"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Confirm"
+                android:textSize="18sp"
+                style="@style/blueButtonStyle"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                />
+
+        </TableRow>
+    </LinearLayout>
+
+</layout>

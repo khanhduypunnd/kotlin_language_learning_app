@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="30sp"
+                style="@style/h4"
+                android:text="Study Language"
+                android:layout_marginTop="16dp"
+                android:paddingVertical="10dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="18sp"
+                android:text="English Mode"
+                android:paddingVertical="10dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/learnlanguage"
+                ></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_flash_card"
+                style="@style/blueButtonStyle"
+                android:textSize="18sp"
+                android:text="Flash Card"
+                android:gravity="center"
+                android:layout_marginHorizontal="56dp"
+                android:paddingVertical="8dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_multiple_choice"
+                style="@style/blueButtonStyle"
+                android:gravity="center"
+                android:layout_marginHorizontal="56dp"
+                android:paddingVertical="8dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="Multiple Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_fill_in_words"
+                style="@style/blueButtonStyle"
+                android:textSize="18sp"
+                android:text="Fill in words"
+                android:gravity="center"
+                android:layout_marginHorizontal="56dp"
+                android:paddingVertical="8dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:checked="true"
+        android:title="Folder"
+        android:id="@+id/menu_folder"
+        android:icon="@drawable/ic_folder"/>
+
+    <item
+        android:checked="true"
+        android:title="Topic"
+        android:id="@+id/menu_topic"
+        android:icon="@drawable/ic_topic"/>
+
+    <item
+        android:checked="false"
+        android:title="Study"
+        android:id="@+id/menu_study"
+        android:icon="@drawable/ic_study"
+
+        />
+
+
+    <item
+        android:checked="false"
+        android:title="Profile"
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_profile"/>
+</menu>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                style="@style/h4"
+                android:text="Flash card"
+                android:layout_marginTop="16dp"
+                android:paddingVertical="10dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TableRow
+                android:layout_marginTop="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Meaning of the word : "
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/tv_word"
+                    android:text="ok"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"/>
+            </TableRow>
+            <com.example.learnlanguage.utils.FlipViewEnglish
+                android:id="@+id/flipTextView1"
+                android:layout_width="260dp"
+                android:background="@color/gray"
+                android:layout_height="110dp"
+                android:layout_margin="16dp"
+                android:text="Card English" />
+
+            <com.example.learnlanguage.utils.FlipViewEnglish
+                android:id="@+id/flipTextView2"
+                android:layout_width="260dp"
+                android:background="@color/gray"
+                android:layout_height="110dp"
+                android:layout_margin="16dp"
+                android:text="Card English" />
+
+            <com.example.learnlanguage.utils.FlipViewEnglish
+                android:id="@+id/flipTextView3"
+                android:layout_width="260dp"
+                android:layout_height="110dp"
+                android:background="@color/gray"
+                android:layout_margin="16dp"
+                android:text="Card English" />
+
+            <com.example.learnlanguage.utils.FlipViewEnglish
+                android:id="@+id/flipTextView4"
+                android:layout_width="260dp"
+                android:background="@color/gray"
+                android:layout_height="110dp"
+                android:layout_margin="16dp"
+                android:text="Card English"/>
+
+            <TextView
+                android:id="@+id/tv_ok"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="OK"
+                android:layout_gravity="center"
+                style="@style/blueButtonStyle"
+                android:textColor="@color/white"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="4dp"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+</layout>
